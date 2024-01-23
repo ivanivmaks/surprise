@@ -36,7 +36,7 @@ function generateLove() {
 
     clickCount++;
   } else {
-    container.innerHTML = '<p class="love-message">❤️ I LOVE YOU ❤️</p>';
+    container.innerHTML = '<p class="love-message">❤️ I LOVE YOUлю ❤️</p>';
   }
 }
 
