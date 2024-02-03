@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#buttons-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  position: absolute;
+  padding: 10px;
+  height: 70px;
+  width: 150px;
+  cursor: pointer;
+  white-space: nowrap;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.love-message {
+  font-size: 124px;
+  color: red;
+}
