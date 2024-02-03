@@ -12,7 +12,7 @@ body {
   align-items: center;
 }
 
-button {
+#start-button {
   position: absolute;
   padding: 10px;
   height: 70px;
@@ -29,4 +29,129 @@ button {
 .love-message {
   font-size: 124px;
   color: red;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: red;
+  font-size: 32px;
+}
+
+.earth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.earth-btn {
+  color: blue;
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sun {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sun-btn {
+  color: rgb(121, 121, 0);
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.solar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 10px;
+}
+
+.solar-btn {
+  color: rgb(46, 46, 10);
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.img-solar {
+  border-radius: 20px;
+}
+
+.galaxy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 10px;
+}
+
+.galaxy-btn {
+  color: rgb(76, 25, 144);
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.img-galaxy {
+  border-radius: 20px;
+}
+
+.universe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 10px;
+}
+
+.universe-btn {
+  color: rgb(76, 25, 144);
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.img-universe {
+  border-radius: 50px;
+}
+
+.love {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img-love {
+  border-radius: 70px;
+}
+
+.hidden {
+  display: none;
 }
